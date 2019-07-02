@@ -66,9 +66,48 @@
             </nav>
           </div>
         </header>                  
+        
         <main>
-            
+          <section class="feedback">
+            <h2>Нужна консультация? Оставьте заявку!</h2>
+            <p class="feedback-history">
+              Нужна консультация? Оставьте заявку!
+              Мы свяжемся с вами, ответим на все возникшие вопросы
+              и подберем удобное время для посещения студии.
+            </p>
+            <form class="form-feedback">
+              <p class="form-item">
+                <label for="name">Ваше имя</label>
+                <input id="name" type="text" placeholder="Как вас зовут?"/>
+              </p>
+              
+              <p class="form-item">
+                <label for="phone">Номер телефона</label>
+                <input id="phone" type="text" placeholder="+7 (___) ___-__-__"/>
+              </p>
+
+              <p class="form-item">
+                <label for="phone">Выберите студию</label>
+                <select>
+                  <option class="option-item" value="cheboksary" selected>
+                    Чебоксары
+                  </option>
+                  <option class="option-item" value="penza">
+                      Пенза
+                    </option>
+                </select>
+              </p>
+
+              <button class="btn btn-form-feedback" type="submit">
+                Получить бесплатную консультацию
+              </button>
+            </form>
+          </section>  
         </main>
+
+        <footer>
+
+        </footer>
       </div>
     </div>
   </body>
