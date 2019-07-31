@@ -164,6 +164,78 @@ input[type='radio'].visually-hidden {
   font-size: 11px;
 }
 
+/* Стили стоимости отбеливания */
+.offers-container {
+  font-size: 15px;
+  line-height: 26px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.offers-header {
+  font-weight: 600;
+  font-size: 50px;
+  text-align: center;
+}
+
+.whitening-types {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.whitening-type {
+  width: 550px;
+  height: 267px;;
+  padding: 0 0 20px 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: white;
+  border: 2px lightgray solid;  
+}
+
+.whitening-type:nth-child(2n) {
+  margin-right: 0px;
+}
+
+.whitening-type-header {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;  
+}
+
+.description {
+  outline: 1px black solid;
+}
+
+.characteristics {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.price {
+  font-size: 30px;
+  font-weight: 600;
+  color: #26358c;
+  margin-top: auto;
+}
+
+.action-price {
+  font-size: 15px;
+  text-decoration: line-through;
+}
+
 /* Географическое расположение */
 .studio-list {
   display: flex;
